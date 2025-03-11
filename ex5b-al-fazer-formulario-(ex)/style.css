@@ -1,7 +1,12 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #D8A7B1;
     text-align: center;
     padding: 20px;
+    height: 100vh;
+    margin: 0;
 }
 
 .container{
@@ -15,9 +20,26 @@ body{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+h3 {
+    color: #f9f7e8;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 36px;
+    width: 50%;
+    margin: 5px auto;
+}
+
 
 .form-control{
     width: 400px;
+    border-radius: 30px;
+    background-color: #F4F1DE;
+}
+
+.form-control:hover{
+    width: 400px;
+    border-radius: 15px;
+    background-color: #FFF0AE;
 }
 
 .custom-button {
